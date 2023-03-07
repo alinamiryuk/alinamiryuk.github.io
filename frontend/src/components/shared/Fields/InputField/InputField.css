@@ -1,4 +1,4 @@
-.password-field {
+.input-field {
     padding: 12px 15px 11px 15px;
     border-radius: 10px;
     color: #4469a0;
@@ -9,23 +9,23 @@
     width: 100%;
 }
 
-.password-field:hover {
+.input-field:hover {
     filter: brightness(105%);
 }
 
-.password-field-error {
+.input-field-error {
     border-color: #cf3f53;
     background-color: #e9afb7;
 }
 
-.password-field-controller {
+.input-field-controller {
     position: absolute;
     top: 50%;
     right: 15px;
     transform: translateY(-48%);
 }
 
-.password-field-controller > svg {
+.input-field-controller > svg {
     width: 20px;
     height: 20px;
     fill: #4469a0;

@@ -14,14 +14,14 @@
 
 .labeled-field-error-message {
   position: absolute;
-  color: #e9afb7;
+  color: #cf3f53;
   font-weight: 600;
   font-size: 13px;
   top: 50%;
-  right: 46px;
+  right: 15px;
   transform: translateY(-50%);
 }
 
 .labeled-field-error-message-password {
-  right: 15px;
+  right: 46px;
 }

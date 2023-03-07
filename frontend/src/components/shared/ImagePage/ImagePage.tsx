@@ -1,9 +1,9 @@
-import React, { PropsWithChildren } from 'react'
+import React from 'react'
 import { ImageSvg } from 'lib/helpers/image'
 import { IImagePageProps } from './ImagePageTypes'
 import './ImagePage.css'
 
-export const ImagePage: React.FC<PropsWithChildren<IImagePageProps>> = ({
+export const ImagePage: React.FC<React.PropsWithChildren<IImagePageProps>> = ({
   image,
   children,
 }) => {

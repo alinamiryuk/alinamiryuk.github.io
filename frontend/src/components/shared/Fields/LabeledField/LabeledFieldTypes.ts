@@ -1,8 +1,8 @@
 export interface ILabeledFieldStateProps {
   label: string
-  isPassword?: boolean
-  isError: boolean
   errorMessage: string
+  isValid: boolean
+  isPassword?: boolean
 }
 
 export interface ILabeledFieldDispatchProps {}

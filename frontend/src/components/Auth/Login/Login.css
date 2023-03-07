@@ -4,10 +4,18 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    padding: 40px;
-    margin: 30px;
+    padding: 40px 80px;
+    margin: 60px;
 }
 
-.login > * {
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.login-form > *, .login > * {
     margin: 10px 0;
 }

@@ -1,13 +1,15 @@
-import React, { PropsWithChildren } from 'react'
+import React from 'react'
 import { Typography } from 'components/shared/Typography/Typography'
 import { TypographyVariant } from 'components/shared/Typography/TypographyTypes'
 import { ILabeledFieldProps } from './LabeledFieldTypes'
 import './LabeledField.css'
 
-export const LabeledField: React.FC<PropsWithChildren<ILabeledFieldProps>> = ({
+export const LabeledField: React.FC<
+  React.PropsWithChildren<ILabeledFieldProps>
+> = ({
   label,
   isPassword = false,
-  isError,
+  isValid = false,
   errorMessage,
   children,
 }) => {
@@ -19,7 +21,7 @@ export const LabeledField: React.FC<PropsWithChildren<ILabeledFieldProps>> = ({
       <Typography title={label} variant={TypographyVariant.BASIC_BOLD_TEXT} />
       <div className="labeled-field-wrapper">
         {children}
-        {isError && (
+        {!!errorMessage && !isValid && (
           <span className={errorMessageClassName}>{errorMessage}</span>
         )}
       </div>

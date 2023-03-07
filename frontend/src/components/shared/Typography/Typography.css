@@ -1,0 +1,37 @@
+.typography {
+    color: #4469a0;
+    font-style: normal;
+    text-align: center;
+}
+
+.typography-variant-h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+}
+
+.typography-variant-basic-text, .typography-variant-basic-bold-text {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.typography-variant-basic-text {
+    font-weight: 400;
+}
+
+.typography-variant-basic-bold-text {
+    font-weight: 700;
+}
+
+.typography-color-secondary {
+    color: #fff8dd;
+}
+
+.typography-color-correct {
+    color: #6ba388;
+}
+
+.typography-color-danger {
+    color: #cf3f53;
+}

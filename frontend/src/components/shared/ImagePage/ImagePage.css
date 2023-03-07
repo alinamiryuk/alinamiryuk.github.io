@@ -1,0 +1,14 @@
+.image-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: inherit;
+}
+
+.image-page-content {
+    width: 100%;
+}

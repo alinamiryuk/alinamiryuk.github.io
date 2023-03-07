@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+input::-moz-placeholder {
+    color: #b9d4db;
+}
+
+input::-webkit-input-placeholder {
+    color: #b9d4db;
+}

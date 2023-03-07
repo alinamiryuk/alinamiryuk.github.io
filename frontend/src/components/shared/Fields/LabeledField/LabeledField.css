@@ -1,0 +1,27 @@
+.labeled-field {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.labeled-field-wrapper {
+  position: relative;
+  margin-top: 4px;
+  width: 100%;
+}
+
+.labeled-field-error-message {
+  position: absolute;
+  color: #e9afb7;
+  font-weight: 600;
+  font-size: 13px;
+  top: 50%;
+  right: 46px;
+  transform: translateY(-50%);
+}
+
+.labeled-field-error-message-password {
+  right: 15px;
+}

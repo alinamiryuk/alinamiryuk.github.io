@@ -1,0 +1,46 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    min-width: fit-content;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.button:hover {
+    filter: brightness(105%);
+}
+
+.button svg {
+    width: 20px;
+    height: 20px;
+}
+
+.button-titled svg {
+    margin: 0 10px 0 -5px;
+}
+
+.button-variation-primary {
+    background: #4469a0;
+    stroke: white;
+}
+
+.button-variation-secondary {
+    background: inherit;
+    border: 1px solid #4469a0;
+    stroke: #4469a0;
+}
+
+.button-wrapper {
+    position: relative;
+}
+
+.button-wrapper:not(:last-child) {
+    margin-right: 10px;
+}

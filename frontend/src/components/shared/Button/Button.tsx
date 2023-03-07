@@ -17,7 +17,7 @@ export const Button: React.FC<IButtonProps> = ({
   isSubmit = false,
   onClick,
 }) => {
-  const buttonClassName = getButtonClassName({ variation, title })
+  const buttonClassName = getButtonClassName({ variation, title, isDisabled })
   const buttonTypographyColor = getButtonTypographyColor({ variation })
   const buttonType = isSubmit ? 'submit' : 'button'
 

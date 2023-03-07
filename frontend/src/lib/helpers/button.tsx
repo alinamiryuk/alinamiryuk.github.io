@@ -22,12 +22,14 @@ export const ButtonSvg: React.FC<ButtonIconProps> = ({ icon }) => {
 
 interface ButtonClassNameProps {
   variation: ButtonVariation
+  isDisabled: boolean
   title?: string
 }
 
 export const getButtonClassName = (props: ButtonClassNameProps): string => {
-  const { variation, title } = props
+  const { variation, title, isDisabled } = props
   let className = `button${title ? ' button-titled' : ''}`
+  if (isDisabled) className += ' button-disabled'
   switch (variation) {
     case ButtonVariation.PRIMARY: {
       className += ' button-variation-primary'

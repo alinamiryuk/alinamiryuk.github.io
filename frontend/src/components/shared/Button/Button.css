@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 
-.button:hover {
+.button:hover:not(.button-disabled) {
     filter: brightness(105%);
 }
 
@@ -35,6 +35,11 @@
     background: inherit;
     border: 1px solid #4469a0;
     stroke: #4469a0;
+}
+
+.button-disabled {
+    background: gray;
+    cursor: not-allowed;
 }
 
 .button-wrapper {

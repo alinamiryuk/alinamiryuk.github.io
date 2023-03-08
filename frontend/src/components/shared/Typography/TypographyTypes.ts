@@ -2,12 +2,12 @@ export enum TypographyVariant {
   H2 = 'H2',
   BASIC_TEXT = 'BASIC_TEXT',
   BASIC_BOLD_TEXT = 'BASIC_BOLD_TEXT',
+  SMALL_TEXT = 'SMALL_TEXT',
 }
 
 export enum TypographyColor {
   PRIMARY = 'PRIMARY',
   SECONDARY = 'SECONDARY',
-  CORRECT = 'CORRECT',
   DANGER = 'DANGER',
 }
 

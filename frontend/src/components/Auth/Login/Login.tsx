@@ -81,6 +81,7 @@ export const Login = () => {
             } = field
             return (
               <InputField
+                key={label}
                 type={type}
                 label={label}
                 value={value}

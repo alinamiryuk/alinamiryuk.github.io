@@ -13,9 +13,6 @@
 
 .labeled-field-error-message {
   position: absolute;
-  color: #cf3f53;
-  font-weight: 600;
-  font-size: 10px;
   top: 110%;
   margin-left: 2px;
 }

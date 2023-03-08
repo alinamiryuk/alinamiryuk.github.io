@@ -24,12 +24,13 @@
     font-weight: 700;
 }
 
-.typography-color-secondary {
-    color: white;
+.typography-variant-small-text {
+    font-weight: 600;
+    font-size: 10px;
 }
 
-.typography-color-correct {
-    color: #6ba388;
+.typography-color-secondary {
+    color: white;
 }
 
 .typography-color-danger {

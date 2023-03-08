@@ -26,6 +26,10 @@ export const getTypographyClassName = (
       className += ' typography-variant-basic-bold-text'
       break
     }
+    case TypographyVariant.SMALL_TEXT: {
+      className += ' typography-variant-small-text'
+      break
+    }
   }
 
   switch (color) {
@@ -34,10 +38,6 @@ export const getTypographyClassName = (
     }
     case TypographyColor.SECONDARY: {
       className += ' typography-color-secondary'
-      break
-    }
-    case TypographyColor.CORRECT: {
-      className += ' typography-color-correct'
       break
     }
     case TypographyColor.DANGER: {

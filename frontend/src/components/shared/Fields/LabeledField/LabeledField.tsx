@@ -6,24 +6,15 @@ import './LabeledField.css'
 
 export const LabeledField: React.FC<
   React.PropsWithChildren<ILabeledFieldProps>
-> = ({
-  label,
-  isPassword = false,
-  isValid = false,
-  errorMessage,
-  children,
-}) => {
-  const errorMessageClassName = `labeled-field-error-message ${
-    isPassword ? 'labeled-field-error-message-password' : ''
-  }`
+> = ({ label, isValid = false, errorMessage, children }) => {
   return (
     <div className="labeled-field">
       <Typography title={label} variant={TypographyVariant.BASIC_BOLD_TEXT} />
       <div className="labeled-field-wrapper">
-        {children}
         {!!errorMessage && !isValid && (
-          <span className={errorMessageClassName}>{errorMessage}</span>
+          <span className="labeled-field-error-message">{errorMessage}</span>
         )}
+        {children}
       </div>
     </div>
   )

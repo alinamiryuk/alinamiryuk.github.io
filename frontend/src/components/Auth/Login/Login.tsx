@@ -38,11 +38,10 @@ const formInputs = {
     validators: [
       (s: string) => !s.length && `Password field can't be empty!`,
       (s: string) => s.length < 8 && `Password field's min length is 8`,
-      (s: string) =>
-        !/\d/.test(s) && 'Password field should have at least 1 number',
+      (s: string) => !/\d/.test(s) && 'Add at least 1 number',
       (s: string) =>
         !/[ `!@#$%^&*()_+\-=\]{};':"\\|,.<>?~]/.test(s) &&
-        'Password field should have at least 1 special char',
+        'Add at least 1 special char',
     ],
   },
 }

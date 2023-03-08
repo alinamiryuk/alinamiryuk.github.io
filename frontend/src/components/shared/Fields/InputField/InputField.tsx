@@ -29,7 +29,6 @@ export const InputField: React.FC<IInputFieldProps> = ({
     <LabeledField
       label={label}
       errorMessage={errorMessage}
-      isPassword={isPassword}
       isValid={debouncedIsValid}
     >
       <input

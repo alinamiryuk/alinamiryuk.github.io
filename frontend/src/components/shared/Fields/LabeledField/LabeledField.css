@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: start;
   width: 100%;
-  margin: 10px 0;
 }
 
 .labeled-field-wrapper {
@@ -16,12 +15,7 @@
   position: absolute;
   color: #cf3f53;
   font-weight: 600;
-  font-size: 13px;
-  top: 50%;
-  right: 15px;
-  transform: translateY(-50%);
-}
-
-.labeled-field-error-message-password {
-  right: 46px;
+  font-size: 10px;
+  top: 110%;
+  margin-left: 2px;
 }

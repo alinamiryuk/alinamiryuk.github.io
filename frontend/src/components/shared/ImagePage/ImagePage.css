@@ -9,6 +9,21 @@
     background-color: inherit;
 }
 
-.image-page-content {
-    width: 100%;
+.image-page > * {
+    width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    .image-page {
+        justify-content: center;
+    }
+
+    .image-page-image {
+        display: none
+    }
+
+    .image-page-content {
+        width: 80%;
+    }
+
 }
